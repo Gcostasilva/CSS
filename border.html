@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bordas</title>
+        
+        <style type="text/css">
+            /*
+            basicamente 
+            # para id - UNICO
+            . (PONTO) para classes, USA PARA TUDO QUE QUISER
+            */
+            #head{
+                background: blue;
+                border: 5px solid green;
+            }
+            #itens{
+                background-color: red;
+                border: 5px solid red;
+
+            }
+            #rodape{
+                background: rgb(0, 255, 42);
+                color: rgb(4, 29, 29);
+                text-align: center;
+            }
+            .produto1{
+                font-weight: 100;
+                font-style: italic;
+                background-color: antiquewhite;
+                margin: 5px;
+                font-size: 20px;
+                font-family: 'Courier New', Courier, monospace, Times, serif;
+            }
+            .produto2{
+                font-weight: 700;
+                text-decoration: wavy;
+                background-color: antiquewhite;
+                margin: 5px;
+                font-size: 20px;
+                font-family: 'Courier New', Courier, monospace, Times, serif;
+            }
+            .produto3{
+                background-color: antiquewhite;
+                margin: 5px;
+            }
+        </style>
+    
+    </head>
+    <body>
+        <DIV id="head">
+            <img src="Imagens/logo_amazon.webp" alt="Logo da Amazon" width="200">
+            <ul>
+                <li>Home</li>
+                <li>Produtos</li>
+                <li>Contato</li>
+            </ul>
+        </DIV>
+        <br>
+        <div id="itens">
+            <div class="produto1">Produto 01</div>
+            <div class="produto2">Produto 02</div>
+            <div class="produto3">Produto 03</div>
+        </div>
+
+        <br><br>
+        <div id="rodape">Todos direitos reservados.</div>
+        
+
+    </body>
+</html>

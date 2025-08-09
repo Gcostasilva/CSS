@@ -1,0 +1,42 @@
+body{
+    background-image: url("C:/Users/guico/desktop/WEB/CSS/projeto-anabela/imagens/fundo.png");
+}
+.nav-bar{
+    color: rgba(70, 88, 189, 0.904);
+    
+}
+
+
+.barra-navegação{
+    width: 800px;
+    height: 50px;
+    margin: 0;
+    /*text-align: center;*/
+    align-content: center;
+
+    font-weight: 800;
+    font-size: 25px;
+    background-color: #acac9c;
+}
+
+.conteudo{
+    width: 800px;
+    background-color: #c5c5b2;
+    padding: 15px;
+}
+.rodape{
+    width: 800px;
+    text-align: center;
+    align-content: center
+}
+
+.img{
+    border: 10px solid #c3c3ae;
+}
+
+a{
+    color: #4b566a;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bold;
+}
