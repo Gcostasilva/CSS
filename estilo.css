@@ -6,12 +6,12 @@
     width: 95%;
 }
 a{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 80px;
     font-size: large;
     font-weight: 500;
     text-decoration: none;
-    border: 1px solid;
+    border: 0px solid;
 }
 
 .top-bar{
