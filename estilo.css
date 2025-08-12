@@ -6,6 +6,7 @@
 }
 a{
     font-family: 'Courier New', Courier, monospace;
+    margin-top: 80px;
     font-size: large;
     font-weight: 500;
     text-decoration: none;
@@ -42,7 +43,7 @@ a{
 
 }
 .bloco{
-    background-color: rgb(175, 77, 77);
+    background-color: rgb(230, 235, 209);
     float: left;
     padding-top: 20PX;
     width: 100px;
