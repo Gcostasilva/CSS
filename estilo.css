@@ -42,7 +42,6 @@ a{
     height: 800px;
     border: 0px solid;
     float: left;
-
 }
 .bloco{
     background-color: rgb(230, 235, 209);
@@ -56,13 +55,17 @@ a{
 }
 .bloco2{
     background-color: aquamarine;
+    right: 8px;
+    position: relative;
     padding-top: 20px;
     text-align: center;
     float: left;
     width: 100px;
     height: 100px;
     margin: 5px;
-    display: block ;
+    position:sticky ;
+    top: 0%;
+    
 }
 .clear{
     clear: both;

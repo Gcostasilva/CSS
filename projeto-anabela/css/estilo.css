@@ -1,9 +1,12 @@
 body{
     background-image: url("imagens/fundo.png");
+    margin-left: 20%;
+    margin-right:10% ;
 }
 .nav-bar{
     color: rgba(70, 88, 189, 0.904);
-    
+    position: sticky;
+    top: 0%;
 }
 
 
@@ -13,12 +16,19 @@ body{
     margin: 0;
     /*text-align: center;*/
     align-content: center;
-
+    position: sticky;
+    top: 0%;
     font-weight: 800;
     font-size: 25px;
     background-color: #acac9c;
 }
-
+.BTN{
+    position: fixed;
+    top: 90%;
+    right: 5%;
+    background-color: #139413;
+    font-size: 15px;
+}
 .conteudo{
     width: 770px;
     background-color: #c5c5b2;
