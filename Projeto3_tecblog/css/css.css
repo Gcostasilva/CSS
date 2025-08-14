@@ -41,19 +41,19 @@ a:hover{
     left: 10%;
 }
 #postagem{
-    width: 64%;
-    height: 100px;
+    width: 60%;
     /*border: 1px solid rgb(21, 204, 45);*/
     background-color: #fff;
     display: inline;
     float: left;
+    padding: 20PX;
 }
 #categorias{
     width: 30%;
     height: 100px;
     /*border: 1px solid #ff0682;*/
     background-color: #fff;
-    margin-left: 5%;
+    margin-left: 3%;
     left: 300px;
     float: left;
 }
