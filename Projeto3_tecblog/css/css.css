@@ -18,16 +18,16 @@
     top: 0px;
     z-index: 100;
 }
-a{
+.caminhos{
     padding: 5px 15px;
     color: white;
     font-weight: bold;
 }
-a:link{
+.caminhos:link{
     text-decoration: none;
 
 }
-a:hover{
+.caminhos:hover{
     background-color: rgb(0, 255, 149);
     border-radius: 50px;
 }
@@ -50,10 +50,22 @@ a:hover{
 }
 #categorias{
     width: 30%;
-    height: 100px;
     /*border: 1px solid #ff0682;*/
-    background-color: #fff;
     margin-left: 3%;
     left: 300px;
     float: left;
+}
+.card{
+    background-color: #fff;
+    width: 100%;
+
+}
+.link-pequeno:link{
+    text-decoration: none;
+    color: blue;
+}
+
+.titulo{
+    background-color: rgb(172, 178, 184);
+    font-weight: bold;
 }
