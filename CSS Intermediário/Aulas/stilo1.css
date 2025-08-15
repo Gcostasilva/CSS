@@ -1,0 +1,29 @@
+li>a:link{
+    text-decoration: none;
+    line-height: 30px;
+    width: 160px;
+    display: block;
+    padding-left: 30px;
+    background-image:url(seta.png);
+    color: black;
+    font-size: 1.5em;
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin: 0px 0px; 
+    background-color: #fffb0d;
+}
+li>a:hover{
+    background-color: rgb(194, 169, 31);
+}
+#menu-vertical #navegação .atual a,
+#conteudo #navegação .conteudo a,
+#contato #navegação .contato a,
+#wats #navegação .wats a,
+#jogos #navegação .jogos a{
+    background-color: rgb(194, 169, 31);
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 10px;
+}
