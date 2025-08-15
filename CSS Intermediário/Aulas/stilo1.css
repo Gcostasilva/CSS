@@ -1,16 +1,20 @@
 li>a:link{
     text-decoration: none;
     line-height: 30px;
-    width: 160px;
+    width: 100px;
     display: block;
     padding-left: 30px;
+    margin-left: 3px;
     background-image:url(seta.png);
     color: black;
-    font-size: 1.5em;
+    font-size: 1.2em;
     background-repeat: no-repeat;
     background-position: left center;
-    margin: 0px 0px; 
+    /*margin: 0px 0px;*/ 
     background-color: #fffb0d;
+}
+li>a:visited{
+    color: black;
 }
 li>a:hover{
     background-color: rgb(194, 169, 31);
@@ -23,7 +27,14 @@ li>a:hover{
     background-color: rgb(194, 169, 31);
 }
 
+
 ul{
     list-style-type: none;
     padding-left: 10px;
+    width: 100%;
+}
+
+ul li {
+    display: inline;
+    float: left;
 }
