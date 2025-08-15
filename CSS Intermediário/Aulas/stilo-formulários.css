@@ -5,6 +5,11 @@
     cursor: pointer;
     
 }
+body{
+    background: url(imagens/fundo.jpg) ;
+    background-image: 100%;
+    background-repeat: no-repeat;
+}
 input{
     margin-left: 10px;
 }
