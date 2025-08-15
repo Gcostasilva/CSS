@@ -1,0 +1,30 @@
+#tabela1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 600px;
+}
+#tabela1{
+    border-collapse: collapse;
+}
+#tabela1 td,th {
+    padding: 7px;
+}
+
+#tabela1 th{
+    text-transform: uppercase;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #111;
+    text-align: left;
+    font-size: 90%;
+    letter-spacing: 0.1em;
+}
+
+#tabela1 tr.alterna{
+    background-color: #efefef;
+}
+#tabela1 td.direita, th.direita{
+    text-align: right;
+}
+
+#tabela1 tr:hover{
+    background-color: #c3e3e5;
+}

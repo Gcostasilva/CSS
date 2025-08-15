@@ -1,0 +1,13 @@
+.rotulo{
+    display: block;
+    border: 0px solid black;
+    width: 400px;
+    cursor: pointer;
+    
+}
+input{
+    margin-left: 10px;
+}
+.clear{
+    display: none;
+}
