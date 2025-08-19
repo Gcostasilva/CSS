@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animações</title>
+    <style type="text/css">
+        html, body{
+            margin: 5px 5px;
+            background-color: bisque;
+            padding: 0;
+        }
+        @keyframes animação-caixa-esquerda{
+            from {
+                background: red;
+                left: 0px;
+                top: 0px;
+                border-radius: 0px 0px 0px 0px;
+            }
+            to {
+                left: 40px;
+                top: 40px;
+                background: green;
+                border-radius: 80px 120px 0px 300px;
+            }
+        }
+        @keyframes animação-caixa-direita{
+            from {
+                background: red;
+                border-radius: 0px 0px 0px 0px;
+            }
+            to {
+                background: green;
+                border-radius: 80px 90px 300px 0px;
+            }
+        }
+        #primaria{
+            position: relative;
+            width: 310px;
+            align-items: center;
+            left: auto;
+            right: auto;
+        }
+        #caixa-esquerda{
+            /*animation-name: animação-caixa-esquerda;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;*/
+
+            animation: animação-caixa-esquerda 1s infinite alternate;
+            height: 300px;
+            width: 150px;
+            background: red;            
+            float: left;
+            text-align: center;
+        }
+        #caixa-direita{
+            animation-name: animação-caixa-direita;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            height: 300px;
+            width: 150px;
+            background: red;
+            float: left;
+            text-align: center;
+            border: 1px solid black;
+        }
+        .PALA{
+            position: relative;
+            color: aliceblue;
+            font-size: 24px;
+            top: 45%;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div id="primaria">
+        <div id="caixa-esquerda"><span class="PALA">TE</span></div>
+        <div id="caixa-direita"><SPan class="PALA">AMO</SPan></div>
+    </div>
+</body>
+</html>
