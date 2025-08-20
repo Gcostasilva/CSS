@@ -6,9 +6,10 @@
     <title>FLEXBOX</title>
     <STyle type="TEXT/cSS">
         #container{
+            
             display: flex;
             
-            justify-content:space-around;
+            justify-content:space-between;
             align-items: center;
             background-color: dimgray;
             width: 90%;
@@ -19,17 +20,34 @@
             height: 100px;
             width: 100px;
             background-color: white;           
-            box-shadow: -8px 8px 15px red;
+            box-shadow: 8px 8px 5px red;
+            /* GROW de crescimento - determina a taxa */
+            margin: 10px;
+            flex-grow: 0.2;
+        }
+        .ordem1{
+            order: 1;
+            flex-grow: 1;
+        }
+        .ordem2{
+            order:2;
+            flex-shrink: 2;
+        }
+        .ordem3{
+            order: 3;
+        }
+        .ordem4{
+            order: 4;
         }
         
     </STyle>
 </head>
 <body>
     <DIV id="container">
-        <div class="caixa">CAIXA 01</div>
-        <div class="caixa">CAIXA 02</div>
-        <div class="caixa">CAIXA 03</div>
-        <div class="caixa">CAIXA 04</div>
+        <div class="caixa ordem1">CAIXA 01</div>
+        <div class="caixa ordem2">CAIXA 02</div>
+        <div class="caixa ordem4">CAIXA 03</div>
+        <div class="caixa ordem3">CAIXA 04</div>
 
     </DIV>
 </body>
