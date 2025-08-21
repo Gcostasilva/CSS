@@ -22,8 +22,8 @@
         </div>
     </header>
     <div id="container">
-        <div id="conteudo-principal" style="border: 1px solid red; height: 300px;">
-            <img src="museu.png" alt="" id="img1">
+        <div id="conteudo-principal" >
+            <img src="imagens/museu.png" alt="" id="img1">
             <div class="postagem"style="background-color: red;"></div>
             <div class="postagem" >
                 <h3>Aqui entra o maps</h3>
@@ -48,8 +48,37 @@
         </div>
         <div id="conteudo-lateral">
             <div id="citação"></div>
-            <div>dfas</div>
+            <div id="faça-visita">
+                <h3>Faça uma visita</h3>
+                <form action="">
+                    <label for="data" style="margin-left:20px;">Data:</label>
+                    <input type="date" name="data" id="data" required>
+                    <label for="qtd-pessoas">Qtd Pessoas</label>
+                    <input type="number" name="qtd-pessoas" id="qtd-pessoas" required>
+                    <input type="submit" value="Verificar Disponibilidade" id="Disponibilidade">
+                </form>
+            </div>
+            <div id="galeria-fotos">
+                <h3>galeria de FOTOS</h3>
+                <div class="fotos-galeria"><img src="imagens/imagem1.jpg" alt=""></div>
+                <div class="fotos-galeria"><img src="imagens/imagem2.jpg" alt=""></div>
+                <div class="fotos-galeria"><img src="imagens/imagem3.jpg" alt=""></div>
+                <div class="fotos-galeria"><img src="imagens/imagem4.jpg" alt=""></div>
+            </div>
         </div>
     </div>
+    <footer>
+        <div id="links-barra-navegação">
+            <Ul>
+                <LI><SPan><A href="" class="links_nav">HOME</A></SPan></LI>
+                <LI><SPan><A href=""class="links_nav">EXPOSIÇÕES</A></SPan></LI>
+                <LI><SPan><A href=""class="links_nav">PESQUISA</A></SPan></LI>
+                <LI><SPan><A href=""class="links_nav">ACERVO</A></SPan></LI>
+                <LI><SPan><A href=""class="links_nav">VÍDEOS</A></SPan></LI>
+                <LI><SPan><A href=""class="links_nav">FOTOS</A></SPan></LI>
+                <LI><SPan><A href=""class="links_nav">CONTATO</A></SPan></LI>
+            </Ul>
+        </div>
+    </footer>
 </body>
 </html>
