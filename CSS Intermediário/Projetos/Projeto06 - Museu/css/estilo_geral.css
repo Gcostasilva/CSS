@@ -180,4 +180,15 @@ footer{
     background-repeat: no-repeat;
     background-position: top;
     background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#links-rodapé a{
+    text-decoration: none;
+    font-size: 0.8em;
+
+    line-height: 2em;
+    font-weight: bold;
+    color: #e39c45;
 }
